@@ -1,7 +1,7 @@
 # IntroPP2201495
 
 El archivo analizado lleva por nombre "matrixmul.cpp", en el cual se realiza un ejercicio de multiplicacion de matrices en paralelo y en secuencial, para analizar los resultados de tiempo obtenidos.
-# Ejecucion
+# Ejecución
 
 Para ejecutar el codigo en guane, es necesario crear un archivo de texto, para este caso utilizaremos vim, con el siguiente comando:
 
