@@ -1,4 +1,4 @@
-# IntroPP22014
+# IntroPP2201495
 
 El archivo analizado lleva por nombre "matrixmul.cpp", en el cual se realiza un ejercicio de multiplicacion de matrices en paralelo y en secuencial, para analizar los resultados de tiempo obtenidos.
 # Ejecucion
