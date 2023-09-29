@@ -8,7 +8,7 @@ void multiplyMatrix(int R1, int C1, int R2, int C2, int m1[R1][C1], int m2[R2][C
 {
     int result[R1][C2];
 
-    printf("La matriz 1 es:\n");
+    
 
     for (int i = 0; i < R1; i++) {
         for (int j = 0; j < C1; j++) {
@@ -18,7 +18,7 @@ void multiplyMatrix(int R1, int C1, int R2, int C2, int m1[R1][C1], int m2[R2][C
 
     }
 
-    printf("\nLa matriz 2 es:\n");
+    
 
     for (int i = 0; i < R2; i++) {
         for (int j = 0; j < C2; j++) {
@@ -44,7 +44,7 @@ void multiplyMatrix(int R1, int C1, int R2, int C2, int m1[R1][C1], int m2[R2][C
 
     	gettimeofday(&t1, 0);
 
-    	printf("\nLa matriz resultante es:\n");
+    	
 	for (int i = 0; i < R1; i++) {
         for (int j = 0; j < C2; j++) {
             
