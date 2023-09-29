@@ -13,7 +13,7 @@ void multiplyMatrix(int R1, int C1, int R2, int C2, int m1[R1][C1], int m2[R2][C
     for (int i = 0; i < R1; i++) {
         for (int j = 0; j < C1; j++) {
             m1[i][j] = rand() % 100; 
-            printf("%d\t", m1[i][j]);
+           
         }
 
     }
@@ -23,7 +23,7 @@ void multiplyMatrix(int R1, int C1, int R2, int C2, int m1[R1][C1], int m2[R2][C
     for (int i = 0; i < R2; i++) {
         for (int j = 0; j < C2; j++) {
             m2[i][j] = rand() % 100; 
-            printf("%d\t", m2[i][j]);
+            
         }
 
     }
@@ -47,7 +47,7 @@ void multiplyMatrix(int R1, int C1, int R2, int C2, int m1[R1][C1], int m2[R2][C
     	printf("\nLa matriz resultante es:\n");
 	for (int i = 0; i < R1; i++) {
         for (int j = 0; j < C2; j++) {
-            printf("%d\t", result[i][j]);
+            
         }
         printf("\n");
     }
